@@ -61,10 +61,10 @@
                                                 <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
                                             </columnResizePolicy>
                                             <columns>
-                                                <TableColumn prefWidth="160.0" text="Identificador" />
-                                                <TableColumn prefWidth="120.0" text="Tipo" />
-                                                <TableColumn prefWidth="90.0" text="Línea" />
-                                                <TableColumn prefWidth="140.0" text="Alcance" />
+                                                <TableColumn fx:id="colIdentificador" prefWidth="160.0" text="Identificador" />
+                                                <TableColumn fx:id="colTipo" prefWidth="120.0" text="Tipo" />
+                                                <TableColumn fx:id="colLinea" prefWidth="90.0" text="Línea" />
+                                                <TableColumn fx:id="colAlcance" prefWidth="140.0" text="Alcance" />
                                             </columns>
                                         </TableView>
                                     </content>
