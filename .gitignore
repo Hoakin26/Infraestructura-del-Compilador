@@ -1,0 +1,20 @@
+# Cursor / IDE local
+.cursorrules
+
+# Documentación local (no publicar)
+docs/
+
+# NetBeans / Ant
+build/
+dist/
+nbproject/private/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Maven (si aplica)
+target/
