@@ -166,25 +166,17 @@ var c = a + b;
 
 Resultado esperado: se reporta que la variable `b` no fue declarada antes de usarse.
 
-## Capturas sugeridas
+## Capturas del programa
 <!-- Captura sugerida: ventana principal de MiniExp con un programa válido cargado en el editor. -->
-![Ventana Principal](docs/img/VentanaPrincipal.png)
+![Ventana Principal](./img/VentanaPrincipal.png)
 <!-- Captura sugerida: pestaña de tokens después de analizar el ejemplo válido. -->
-![Ventana Token](docs/img/VentanaTokens.png)
+![Ventana Token](./img/VentanaTokens.png)
 <!-- Captura sugerida: vista del AST donde se vea la expresión (x + y) * 2. -->
-![Ventana Token](docs/img/VentanaAST.png)
+![Ventana Token](./img/VentanaAST.png)
 <!-- Captura sugerida: tabla de símbolos mostrando x, y y z. -->
-![Ventana Token](docs/img/VentanaTablaSimbolos.png)
+![Ventana Token](./img/VentanaTablaSimbolos.png)
 <!-- Captura sugerida: ventana de error al ejecutar un caso léxico, sintáctico o semántico. -->
-![Ventana Token](docs/img/VentanaError.png)
-## Documentación adicional
-
-El repositorio incluye documentos de apoyo en la carpeta `docs/`:
-
-- `docs/documentacion.md`: explicación técnica completa del proyecto.
-- `docs/CASOS_PRUEBA.md`: entradas sugeridas para validar el compilador.
-- `docs/COMPLEJIDAD.md`: análisis de complejidad de las estructuras usadas.
-- `docs/GRAMATICA.md`: resumen de la gramática del lenguaje.
+![Ventana Token](./img/VentanaError.png)
 
 ## Alcance actual
 
