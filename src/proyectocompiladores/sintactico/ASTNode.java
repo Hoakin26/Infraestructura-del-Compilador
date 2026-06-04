@@ -14,13 +14,7 @@ import java.util.List;
  */
 public abstract class ASTNode {
 
-    /**
-     * @return texto descriptivo del nodo para mostrarlo en la UI.
-     */
     public abstract String etiqueta();
 
-    /**
-     * @return lista de nodos hijos (vacía si es una hoja).
-     */
     public abstract List<ASTNode> getHijos();
 }

@@ -14,14 +14,6 @@ public class Token {
     private final int linea;
     private final int columna;
 
-    /**
-     * Crea un token.
-     *
-     * @param tipo    categoría léxica del token.
-     * @param lexema  texto exacto encontrado en el código fuente.
-     * @param linea   línea (base 1) donde inicia el token.
-     * @param columna columna (base 1) donde inicia el token.
-     */
     public Token(TokenType tipo, String lexema, int linea, int columna) {
         this.tipo = tipo;
         this.lexema = lexema;

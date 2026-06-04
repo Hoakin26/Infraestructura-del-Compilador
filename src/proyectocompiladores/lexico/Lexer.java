@@ -37,9 +37,6 @@ public class Lexer {
     private int linea;
     private int columna;
 
-    /**
-     * @param fuente código fuente a tokenizar (no nulo).
-     */
     public Lexer(String fuente) {
         this.fuente = fuente == null ? "" : fuente;
         this.posicion = 0;
@@ -47,12 +44,6 @@ public class Lexer {
         this.columna = 1;
     }
 
-    /**
-     * Convierte todo el código fuente en una lista de tokens.
-     *
-     * @return lista de tokens, terminada con un token {@link TokenType#EOF}.
-     * @throws LexicalException si encuentra un símbolo no reconocido.
-     */
     public List<Token> tokenize() throws LexicalException {
         List<Token> tokens = new ArrayList<>();
 

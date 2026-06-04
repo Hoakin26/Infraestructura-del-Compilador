@@ -22,12 +22,6 @@ public class ConstructorTablaSimbolos {
     /** Alcance único soportado por ahora. */
     private static final String ALCANCE_GLOBAL = "global";
 
-    /**
-     * Construye la tabla de símbolos a partir de los tokens.
-     *
-     * @param tokens lista de tokens (debe terminar en EOF, pero no es obligatorio).
-     * @return tabla de símbolos con las variables declaradas con {@code var}.
-     */
     public SymbolTable construir(List<Token> tokens) {
         SymbolTable tabla = new SymbolTable();
         if (tokens == null) {

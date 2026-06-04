@@ -15,12 +15,6 @@ public class Symbol {
     private final int linea;
     private final String alcance;
 
-    /**
-     * @param nombre   nombre del identificador (clave en la tabla).
-     * @param tipoDato tipo de dato asociado (por ahora siempre entero/var).
-     * @param linea    línea donde fue declarado.
-     * @param alcance  alcance del símbolo (por ahora siempre global).
-     */
     public Symbol(String nombre, String tipoDato, int linea, String alcance) {
         this.nombre = nombre;
         this.tipoDato = tipoDato;

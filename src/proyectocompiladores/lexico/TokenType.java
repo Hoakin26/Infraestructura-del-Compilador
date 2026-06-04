@@ -47,9 +47,6 @@ public enum TokenType {
         this.descripcion = descripcion;
     }
 
-    /**
-     * @return descripción legible de la categoría (útil para la UI).
-     */
     public String getDescripcion() {
         return descripcion;
     }
